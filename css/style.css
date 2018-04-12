@@ -1,0 +1,243 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	 
+    background-image: url("../pic/background.jpg");
+	background-repeat: repeat-x repeat-y;
+}
+
+.main{
+	margin:0 auto;
+	width:1024px;
+	height:768px;
+	background-color:#9706AD;
+	
+}
+
+h2{
+	padding-top:200px;
+	color:#ff8080;
+	font-family: Gill Sans Extrabold, sans-serif;
+	font-size:3em;
+}
+
+h3{
+	padding-top:10px;
+	
+}
+.button{
+	text-decoration:none;
+	
+}
+
+
+
+.header{
+	height:100px;
+	
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+	height:40px;	
+	width:25%;
+}
+
+.nav li a.active {
+    background-color:#9966ff ;
+    color:#ffff99;
+}
+
+.nav li a:hover:not(.active) {
+    background-color: black;
+    color: #ff9966;
+}
+
+.nav{
+	overflow:hidden;
+	position:relative;
+	line-height:40px;
+	width:1024px;
+	height:40px;
+	background-color:#6699ff;
+	
+}
+
+.nav ul{
+	margin:0 auto;
+	width:100%;
+}
+
+.nav a {
+	line-height:1.5;
+
+	float:left;
+	display:block;
+	text-decoration:none;
+	font-size:1em;
+	color:white;
+	text-align:center;
+}
+
+
+
+h1#title{
+	
+	font-family:Impact, Charcoal, sans-serif;
+	color:#FFE4C4;
+	font-size:5em;
+	text-align:center;
+	
+}
+
+.content{
+	height:588px;
+	text-align:center;
+
+}
+
+
+.footer{
+	clear:both;
+	position:relative;	
+	overflow:hidden;	
+	width:1024px;
+	height:40px;
+	display:block;
+	background-color:#6699ff;
+}
+.footer li{
+	line-height:1.5;
+	width:33.33%;
+	float:left;
+	font-size:1em;
+	color:#F08080;
+	height:40px;
+	text-align:center;
+}
+
+.footer ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	
+}
+
+hr{
+	margin:8px 10px;
+	
+}
+
+table{
+	
+	width:820px;
+	border-collapse:collapse;
+	
+}
+
+#tableTitleTop, #tableTitleBottom{
+	margin:0 auto;
+	width:820px;
+	height:30px;
+}
+#tableTitleTop{
+	margin-top:10px;
+}
+
+#tableTitleBottom2{
+	margin:20px 82px 0 102px;
+	width:820px;
+	height:30px;
+}
+
+
+#history{
+	margin:0 82px 0 102px;
+	
+}
+
+#quote{
+	margin:0 82px 0 102px;
+	
+}
+
+#quote td, #history td{
+	color:white;
+    border-top: 1px solid #dddddd;
+    
+}
+
+#quote tr:nth-child(even), #history tr:nth-child(even) {
+    background-color: #dddddd;
+
+}
+
+#quote tr:nth-child(even) td, #history tr:nth-child(even) td{
+    	color:black;
+
+}
+
+
+#left{
+	height:40px;
+	width:150px;
+	text-align:left;
+	margin:0;
+	padding-left:50px;
+}
+
+#right{
+	height:40px;
+	width:150px;
+	text-align:right;
+	padding-right:50px;
+	margin:0;
+}
+
+#tableSpace, #middle{
+	width:220px;
+	height:40px;
+
+}
+.companyName{
+	width:820px;
+	height:40px;
+	background-color:black;
+	font-weight:bold;
+	color:#FFE4C4;
+	
+}
+
+
+
+#tableContent{	
+	
+	overflow:auto;
+	height:350px;	
+    padding: 0;
+}
+
+#black{
+	background-color:black;
+	
+}
+
+#black td{
+	color:white;
+}
+
+.searchResult{
+	font-size:0.8em;
+	
+}
